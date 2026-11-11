@@ -1,0 +1,20 @@
+{
+  "model_name": "demo_churn_hari2",
+  "model_version": "1.0-workshop",
+  "features": [
+    "age",
+    "contract",
+    "monthly_charge",
+    "tenure_months",
+    "support_calls"
+  ],
+  "target": "churn",
+  "threshold": 0.5,
+  "training_rows": 128,
+  "test_rows": 32,
+  "test_accuracy": 0.7812,
+  "python_version": "3.13.18",
+  "pandas_version": "2.2.3",
+  "scikit_learn_version": "1.6.1",
+  "joblib_version": "1.6.0"
+}
