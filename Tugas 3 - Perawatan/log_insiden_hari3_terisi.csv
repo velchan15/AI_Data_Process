@@ -1,0 +1,2 @@
+incident_id,tanggal,batch,status_awal,gejala,dampak,tindakan_sementara,akar_masalah,tindakan_permanen,pemilik,verifikasi,status_akhir,bukti
+INC-H3-001,2026-11-11,bermasalah,MERAH,"missing, nilai di luar rentang, kategori Weekly",prediksi batch tidak boleh dipakai,karantina batch dan gunakan artefak terakhir yang tervalidasi,kontrak data sumber berubah tanpa handoff,perbaiki sumber data dan tambah validasi sebelum prediksi,Data Owner + ML Owner,jalankan pemeriksaan pada batch perbaikan,HIJAU,laporan_monitoring_hari3.csv + grafik_monitoring_hari3.png

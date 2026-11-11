@@ -1,0 +1,8 @@
+area,yang_diperiksa,metode,ambang_workshop,frekuensi,pemilik,bukti,tindakan_jika_gagal,status_review,catatan_peserta
+Artefak,model metadata dan requirements,Cek nama versi dan sumber,Semua tersedia,Sebelum setiap pemeriksaan,ML Owner,Daftar inventaris,Hentikan dan lengkapi artefak,DITINJAU,Sesuaikan ambang dengan risiko dan pemilik proses
+Kualitas data,missing rentang kategori,Validasi batch,Missing <=2%; invalid <=1%; kategori asing=0,Setiap batch,Data Owner,Laporan monitoring,Karantina batch dan perbaiki sumber,DITINJAU,Sesuaikan ambang dengan risiko dan pemilik proses
+Pergeseran data,rata-rata fitur dan distribusi,Bandingkan baseline,Mean shift <=20%,Mingguan atau setiap batch,ML Owner,Grafik monitoring,Tinjau perubahan sumber dan konteks,DITINJAU,Sesuaikan ambang dengan risiko dan pemilik proses
+Stabilitas prediksi,proporsi risiko tinggi,Bandingkan baseline,Perubahan <=15 percentage point,Setiap batch,ML Owner,Laporan monitoring,Tinjau input threshold dan model,DITINJAU,Sesuaikan ambang dengan risiko dan pemilik proses
+Kinerja model,accuracy dan recall ketika label tersedia,Bandingkan baseline,Penurunan accuracy <=0.10,Bulanan,ML Owner + Business Owner,Catatan evaluasi,Tahan penggunaan atau evaluasi ulang,DITINJAU,Sesuaikan ambang dengan risiko dan pemilik proses
+Lingkungan,versi Python dan library,Cocokkan metadata,Versi scikit-learn sama,Sebelum load model,Platform Owner,Screenshot versi,Bangun ulang lingkungan terkontrol,DITINJAU,Sesuaikan ambang dengan risiko dan pemilik proses
+Insiden,status dampak tindakan dan verifikasi,Log insiden,Semua insiden punya owner dan bukti,Setiap insiden,Incident Owner,Log insiden,Karantina rollback eskalasi dan verifikasi,DITINJAU,Sesuaikan ambang dengan risiko dan pemilik proses
